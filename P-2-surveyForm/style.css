@@ -1,0 +1,133 @@
+/* Author - amit Kumar */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00adad; /* Set the background color of the body */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+.container {
+    max-width: 600px; /* Set maximum width of the container */
+    margin: 20px auto; /* Center the container horizontally */
+    background-color: #00658a; /* Set background color of the container */
+    padding: 20px; /* Add padding inside the container */
+    border-radius: 8px; /* Add border-radius for rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+  
+header {
+    text-align: center; /* Center-align header content */
+}
+
+#survey-subheading {
+    color: white; /* Set text color to white */
+}
+  
+h1 {
+    font-size: 24px; /* Set font size for header */
+    color: #333; /* Set text color */
+}
+  
+p {
+    color: #666; /* Set text color */
+}
+  
+section {
+    margin-bottom: 20px; /* Add bottom margin to sections */
+}
+  
+h2 {
+    font-size: 20px; /* Set font size for section headers */
+    color: #333; /* Set text color */
+}
+  
+.form-group {
+    margin-bottom: 15px; /* Add bottom margin to form groups */
+}
+  
+label {
+    display: block; /* Make labels display as block elements */
+    font-weight: bold; /* Set font weight to bold */
+    margin-bottom: 5px; /* Add bottom margin to labels */
+}
+  
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+    width: 100%; /* Set width to 100% of the container */
+    padding: 10px; /* Add padding inside input elements */
+    margin-top: 5px; /* Add top margin */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+  
+textarea {
+    resize: vertical; /* Allow vertical resizing of textareas */
+}
+  
+button {
+    background-color: #002c6d; /* Set background color of button */
+    color: white; /* Set text color */
+    font-weight: bold; /* Set font weight to bold */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    padding: 12px 20px; /* Add padding */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Add transition effect */
+    width: 100%; /* Set width to 100% of the container */
+}
+  
+button:hover {
+    background-color: #002c6d; /* Change background color on hover */
+}
+  
+.rating-container {
+    display: flex; /* Use flexbox for rating container */
+    align-items: center; /* Align items vertically */
+}
+  
+output {
+    font-weight: bold; /* Set font weight to bold */
+    margin-right: 10px; /* Add right margin */
+    font-size: 18px; /* Set font size */
+}
+  
+input[type="range"] {
+    width: 70%; /* Set width of range input */
+    -webkit-appearance: none; /* Remove default styling */
+    appearance: none; /* Remove default styling */
+    height: 10px; /* Set height of range input */
+    border-radius: 5px; /* Add border radius */
+    background: #d3d3d3; /* Set background color */
+    outline: none; /* Remove outline */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+    margin-top: 5px; /* Add top margin */
+}
+  
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove default styling */
+    appearance: none; /* Remove default styling */
+    width: 20px; /* Set width of thumb */
+    height: 20px; /* Set height of thumb */
+    border-radius: 50%; /* Make thumb circular */
+    background: #5daadb; /* Set background color */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+input[type="date"] {
+    width: 100%; /* Set width to 100% of the container */
+    padding: 10px; /* Add padding */
+    margin-top: 5px; /* Add top margin */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+    background-color: #fff; /* Set background color */
+    color: #333; /* Set text color */
+    font-size: 16px; /* Set font size */
+    outline: none; /* Remove outline */
+}
